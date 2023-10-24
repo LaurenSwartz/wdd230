@@ -62,37 +62,13 @@
       padding: 80px;
       font-size: 10px;
     }
+    main{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
       
-    .item1 {
-      grid-column: 1 / span 3;
-      grid-row: 1;
     }
-      
-    .item2 {
-      grid-column: 1/ span 2;
-      grid-row: 2;
-      padding: 50px;
-    }
-      
-    .item3 {
-      grid-column: 3;
-      grid-row: 2;
-    }
-    .item4 {
-      grid-column: 1;
-      grid-row: 3;
-    }
-    
-    .item5 {
-      grid-column: 2;
-      grid-row: 3;
-    }
-    .item6 {
-      grid-column: 3;
-      grid-row: 3;
-    }
-    main h1 {
-      grid-column: 1/ span 2;
+    main h2 {
+        grid-column: 1/ span 2;
     }
     nav ul{
         display: flex;
@@ -101,7 +77,7 @@
         flex:1 1 100%
     }
     .navigation {
-      display: flex;
+    display: flex;
     }
     .navigation li {
       display: block; /* change state in small view */
@@ -113,32 +89,12 @@
     #menu {
       display: none;
     }
-    .carditem1 {
-      grid-column: 1;
-      grid-row: 1;
-    }
-    
-    .carditem2 {
-      grid-column: 1;
-      grid-row: 2 ;
-    }
-    .carditem3 {
-      grid-column: 1;
-      grid-row: 3;
-    }
-    .carditem4{
-      grid-column: 1 ;
-      grid-row: 4;
-    }
-    
-    .carditem5 {
-      grid-column: 2 / span 2;
-      grid-row: 1 / span 4;
-    }
     .hero {
-      grid-column: 1/ span 2;
+        grid-column: span 2;
 
-  }
+    }
+      
+    
    
  
  

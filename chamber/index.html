@@ -72,28 +72,42 @@
         </ul>
     </nav>
     <main>
-        <div class="grid-container">
-            <div class="hero">
-                <picture>
-                    <source media="(max-width: 500px)" srcset="images/hero-small.webp">
-                    <source media="(max-width: 750px)" srcset="images/hero-medium.webp">
-                    <source media="(max-width: 1000px)" srcset="images/hero-large.webp">
-                    <img src="images/hero-large.webp" alt="table setting" width="1500" height="750">
-                </picture>
-                <section class="join">Join</section>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 900px)" srcset="images/hero-large.webp">
+                <img src="images/hero-large.webp" alt="table setting" width="1500" height="750">
+            </picture>
+            <div class="herolabel">
+                <p>In the middle of Difficulty lies Opportunity- Albert Einstein</p>
             </div>
-            <div class="grid-item item2">Event</div>
-            <div class="grid-item item3">
-            <h3 class="card">Information</h3>
+        </div>
+        <section>
+            <h3 class="card">Events</h3>
+            <ul>
+                <li>Misty's school of ballet - Grand Opening</li>
+                <li>Art Festival</li>
+                <li>Mini Soccer festival</li>
+            </ul>
+        </section>
+        <section>
+            <h3 class="card">Weather</h3>
             <div id="weather">
             <figure>
             <p><img id="weather-icon" src="" alt=""><span id="current-temp"></span></p>
             <figcaption></figcaption>
             </figure>
             </div>
-            </div>  
-            <div class="spotlight"></div>
-          </div>
+            <br>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        </section>
+        <section>
+            <div id="class">
+                <h3>Map</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.7160612628577!2d27.90375507635785!3d-26.173375162721005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a0661d927ed9%3A0xd842fb74d6a95582!2s1%20Hull%20St%2C%20Florida%2C%20Roodepoort%2C%201710!5e0!3m2!1sen!2sza!4v1695927151577!5m2!1sen!2sza" width="450" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
     </main>
     <footer>
         <p>©️ 2023
