@@ -218,16 +218,17 @@ div.grid-item1 {
   grid-template-columns: 1fr;
   gap: 10px;
   background-color: aliceblue;
-  padding: 10px;
+  padding: 0;
 }
 
 .card-item {
     background-color: white;
     border: 1px solid #bbb;
     text-align: center;
-    padding: 80px;
+    padding: 50px;
     font-size: 10px;
 }
+.hover:hover {box-shadow: 0 0 50px #333;}
 
 
 nav ul {
@@ -471,7 +472,7 @@ section h3 {
 
 section p {
 	font-weight: 600;
-	font-size: smaller;
+	font-size: 1REM;
 }
 
 section a {
