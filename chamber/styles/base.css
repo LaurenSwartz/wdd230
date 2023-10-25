@@ -482,7 +482,7 @@ section a {
 }
 
 img {
-	height: 75px;
+	height: 150px;
 	max-width: 100%; /* Images are jerks - Seattle*/
 }
 #weather-icon {
@@ -490,6 +490,9 @@ img {
 }
 .weather {
 	padding: 30px
+}
+p {
+ border: 1px solid rgba(0, 0, 0, 0.1);;
 }
 
 
